@@ -1,12 +1,92 @@
 ﻿@page
 @model WebApplication1.Pages.PlayerBiosModel
 @{
+    PlayerBiosModel[] player = new PlayerBiosModel[6];
+    player[0] = new PlayerBiosModel { Name = "Jordan Stotts", Twitter = "https://twitter.com/JordanStotts15", IG = "https://www.instagram.com/jordanstotts15/", Facebook = "https://www.facebook.com/jordan.stotts", Age = 29, Occupation = "Software DEveloper", AlmaMater = "University of Sioux Falls", FlagYears = "0", Handicap = 12.2, BootYears = "2014 | 2015" };
+    player[1] = new PlayerBiosModel { Name = "Derrick Wiley", Twitter = "https://twitter.com/ddubthekid", IG = "https://www.instagram.com/derrickwiley_/", Facebook = "https://www.facebook.com/derrick.wiley.104", Age = 28, Occupation = "Senior UX Engineer", AlmaMater = "Iowa State University", FlagYears = "2014 | 2016 | 2020 | 2021", Handicap = 19.5, BootYears = "2022" };
+    player[2] = new PlayerBiosModel { Name = "Rayn Biegger", Twitter = "https://twitter.com/BieggerIsBetter", IG = "https://www.instagram.com/ryan_biegger/", Facebook = "https://www.facebook.com/ryan.biegger", Age = 28, Occupation = "CPA | Senior Associate at Embark", AlmaMater = "University of Northern Iowa", FlagYears = "2018 | 2019", Handicap = 13.1, BootYears = "2013 | 2016 | 2017" };
+    player[3] = new PlayerBiosModel { Name = "Grant Luther", Twitter = "https://twitter.com/GrantLuther12", IG = "https://www.instagram.com/grantluther12/", Facebook = "https://www.facebook.com/grant.luther.92", Age = 29, Occupation = "Beach Bum", AlmaMater = "Iowa State University", FlagYears = "2013 | 2015", Handicap = 2.6, BootYears = "2018 | 2019 | 2020 | 2021" };
+    player[4] = new PlayerBiosModel { Name = "Connor Girkin", Twitter = "https://twitter.com/GirkinOffIsFun", IG = "https://www.instagram.com/cgirkin/", Facebook = "https://www.facebook.com/connor.girkin", Age = 28, Occupation = "Sales Consultant at Willis Auto", AlmaMater = "University of Iowa", FlagYears = "2017 | 2022", Handicap = 10.3, BootYears = "0" };
+    player[5] = new PlayerBiosModel { Name = "Austin Howe", Twitter = "https://twitter.com/AustinKnowsHowe", IG = "https://www.instagram.com/austinhowe2/", Facebook = "https://www.facebook.com/profile.php?id=1816414823", Age = 29, Occupation = "CPA | Int'l Tax Senior Assoc. at RSM", AlmaMater = "University of Iowa", FlagYears = "0", Handicap = 0.1, BootYears = "0" };
 
 }
 
-@Model.Name
 
+<h1>@player[0].Name</h1>
+<p>Twitter: @player[0].Twitter</p>
+<p>Instagram: @player[0].IG</p>
+<p>Facebook: @player[0].Facebook</p>
+<p>Age: @player[0].Age</p>
+<p>Occupation: @player[0].Occupation</p>
+<p>Alma Mater: @player[0].AlmaMater</p>
+<p>Flag Years: @player[0].FlagYears</p>
+<p>Handicap: @player[0].Handicap</p>
+<p>Boot Years: @player[0].BootYears</p>
 
+<br />
+
+<h1>@player[1].Name</h1>
+<p>Twitter: @player[1].Twitter</p>
+<p>Instagram: @player[1].IG</p>
+<p>Facebook: @player[1].Facebook</p>
+<p>Age: @player[1].Age</p>
+<p>Occupation: @player[1].Occupation</p>
+<p>Alma Mater: @player[1].AlmaMater</p>
+<p>Flag Years: @player[1].FlagYears</p>
+<p>Handicap: @player[1].Handicap</p>
+<p>Boot Years: @player[1].BootYears</p>
+
+<br />
+
+<h1>@player[2].Name</h1>
+<p>Twitter: @player[2].Twitter</p>
+<p>Instagram: @player[2].IG</p>
+<p>Facebook: @player[2].Facebook</p>
+<p>Age: @player[2].Age</p>
+<p>Occupation: @player[2].Occupation</p>
+<p>Alma Mater: @player[2].AlmaMater</p>
+<p>Flag Years: @player[2].FlagYears</p>
+<p>Handicap: @player[2].Handicap</p>
+<p>Boot Years: @player[2].BootYears</p>
+
+<br />
+
+<h1>@player[3].Name</h1>
+<p>Twitter: @player[3].Twitter</p>
+<p>Instagram: @player[3].IG</p>
+<p>Facebook: @player[3].Facebook</p>
+<p>Age: @player[3].Age</p>
+<p>Occupation: @player[3].Occupation</p>
+<p>Alma Mater: @player[3].AlmaMater</p>
+<p>Flag Years: @player[3].FlagYears</p>
+<p>Handicap: @player[3].Handicap</p>
+<p>Boot Years: @player[3].BootYears</p>
+
+<br />
+
+<h1>@player[4].Name</h1>
+<p>Twitter: @player[4].Twitter</p>
+<p>Instagram: @player[4].IG</p>
+<p>Facebook: @player[4].Facebook</p>
+<p>Age: @player[4].Age</p>
+<p>Occupation: @player[4].Occupation</p>
+<p>Alma Mater: @player[4].AlmaMater</p>
+<p>Flag Years: @player[4].FlagYears</p>
+<p>Handicap: @player[4].Handicap</p>
+<p>Boot Years: @player[4].BootYears</p>
+
+<br />
+
+<h1>@player[5].Name</h1>
+<p>Twitter: @player[5].Twitter</p>
+<p>Instagram: @player[5].IG</p>
+<p>Facebook: @player[5].Facebook</p>
+<p>Age: @player[5].Age</p>
+<p>Occupation: @player[5].Occupation</p>
+<p>Alma Mater: @player[5].AlmaMater</p>
+<p>Flag Years: @player[5].FlagYears</p>
+<p>Handicap: @player[5].Handicap</p>
+<p>Boot Years: @player[5].BootYears</p>
 
 @*<body>
     <h1>Who will win the boot this year?</h1>
