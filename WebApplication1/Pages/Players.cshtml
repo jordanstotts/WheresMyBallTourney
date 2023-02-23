@@ -1,0 +1,22 @@
+﻿@page
+@model WebApplication1.Pages.PlayersModel
+@{
+
+}
+
+@Model.Name
+
+<body>
+    <h1>Who will win the boot this year?</h1>
+    <form method="post" action="simpleform.asp">
+        <select>
+            <option name="player">Jordan</option>
+            <option name="player">Grant</option>
+            <option name="player">Ryan</option>
+            <option name="player">Austin</option>
+            <option name="player">Derrick</option>
+            <option name="player">Connor</option>
+        </select>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
