@@ -26,6 +26,3 @@ app.MapRazorPages();
 
 app.Run();
 
-/*var jordanStotts = new PlayerBiosModel("Jordan Stoots");
-
-PlayerBiosModel player = new PlayerBiosModel("John Smith", "@johnsmith", "johnsmith_ig", "johnsmith_fb", 25, "Software Engineer", "University of XYZ", 3, 5.2, 7);*/
