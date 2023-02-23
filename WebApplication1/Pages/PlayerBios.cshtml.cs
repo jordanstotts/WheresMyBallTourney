@@ -16,7 +16,7 @@ namespace WebApplication1.Pages
         public double Handicap { get; set; }
         public string? BootYears { get; set; }
 
-        public PlayerBiosModel[] player = new PlayerBiosModel[6];
+       /* public PlayerBiosModel[] player = new PlayerBiosModel[6];*/
 
         
 

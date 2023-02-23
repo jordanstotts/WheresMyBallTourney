@@ -1,4 +1,45 @@
 ﻿@page
-@model WheresMyBallTourney.Pages.BootRecipientsModel
+@model WebApplication1.Pages.BootRecipientsModel
 @{
+    BootRecipientsModel[] bootWinner = new BootRecipientsModel[6];
+    bootWinner[0] = new BootRecipientsModel { Name = "Grant Luther", Course = "Tournament Club of Iowa", Year = 2018 };
+    bootWinner[1] = new BootRecipientsModel { Name = "Grant Luther", Course = "Amana Colonies Golf Club", Year =2019};
+    bootWinner[2] = new BootRecipientsModel { Name = "Grant Luther", Course = "Whitebirch at Breezy Point", Year = 2020};
+    bootWinner[3] = new BootRecipientsModel { Name = "Grant Luther", Course = "Quarry Oaks Golf Club", Year = 2021};
+    bootWinner[4] = new BootRecipientsModel { Name = "Derrick Wiley", Course = "Raven Golf Club", Year = 2022};
 }
+
+<h1 className="bootHeader">Boot Winners</h1>
+<p className="preBoot">
+    *pre boot trophy winners: 2013 - Ryan Biegger | 2014 - Jordan Stotts |
+    2015 - Jordan Stotts | 2016 - Ryan Biegger | 2017 - Ryan Biegger
+</p>
+
+<h3>@bootWinner[0].Name</h3>
+<p>Twitter: @bootWinner[0].Course</p>
+<p>Instagram: @bootWinner[0].Year</p>
+
+<br />
+
+<h3>@bootWinner[1].Name</h3>
+<p>Twitter: @bootWinner[1].Course</p>
+<p>Instagram: @bootWinner[1].Year</p>
+
+<br />
+
+<h3>@bootWinner[2].Name</h3>
+<p>Twitter: @bootWinner[2].Course</p>
+<p>Instagram: @bootWinner[2].Year</p>
+
+<br />
+
+<h3>@bootWinner[3].Name</h3>
+<p>Twitter: @bootWinner[3].Course</p>
+<p>Instagram: @bootWinner[3].Year</p>
+
+<br />
+
+<h3>@bootWinner[4].Name</h3>
+<p>Twitter: @bootWinner[4].Course</p>
+<p>Instagram: @bootWinner[4].Year</p>
+
