@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\FlagSitePics\" />
-    <Folder Include="SocialIcons\" />
+    <Folder Include="wwwroot\SocialIcons\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,6 +44,9 @@
     <None Include="wwwroot\FlagSitePics\theflag_ryanbio.jpg" />
     <None Include="wwwroot\FlagSitePics\theflag_ryanbio2.jpg" />
     <None Include="wwwroot\FlagSitePics\theflag_ryanbio2.jpg.heic" />
+    <None Include="wwwroot\SocialIcons\facebook_logo.png" />
+    <None Include="wwwroot\SocialIcons\instagram_logo.png" />
+    <None Include="wwwroot\SocialIcons\twitter_logo.png" />
   </ItemGroup>
 
 </Project>
