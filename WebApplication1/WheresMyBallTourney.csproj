@@ -7,8 +7,43 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="FlagSitePics\" />
+    <Folder Include="wwwroot\FlagSitePics\" />
     <Folder Include="SocialIcons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\FlagSitePics\the flag_2014card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2013card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2013flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2014flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2015card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2015flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2016card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2016flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2017card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2017flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2018boot.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2018card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2018flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2019boot.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2019card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2019flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2020boot.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2020card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2020flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2021boot.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2021card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2021flag.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_austinbio.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_connorbio.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_derrickbio.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_grantbio.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_jordanbio.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_logo2.png" />
+    <None Include="wwwroot\FlagSitePics\theflag_logoBlack.png" />
+    <None Include="wwwroot\FlagSitePics\theflag_ryanbio.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_ryanbio2.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_ryanbio2.jpg.heic" />
   </ItemGroup>
 
 </Project>
