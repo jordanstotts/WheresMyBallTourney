@@ -3,48 +3,64 @@
 @{
     BootRecipientsModel[] bootWinner = new BootRecipientsModel[6];
     bootWinner[0] = new BootRecipientsModel { Name = "Grant Luther", Course = "Tournament Club of Iowa", Year = 2018 };
-    bootWinner[1] = new BootRecipientsModel { Name = "Grant Luther", Course = "Amana Colonies Golf Club", Year =2019};
-    bootWinner[2] = new BootRecipientsModel { Name = "Grant Luther", Course = "Whitebirch at Breezy Point", Year = 2020};
-    bootWinner[3] = new BootRecipientsModel { Name = "Grant Luther", Course = "Quarry Oaks Golf Club", Year = 2021};
-    bootWinner[4] = new BootRecipientsModel { Name = "Derrick Wiley", Course = "Raven Golf Club", Year = 2022};
+    bootWinner[1] = new BootRecipientsModel { Name = "Grant Luther", Course = "Amana Colonies Golf Club", Year = 2019 };
+    bootWinner[2] = new BootRecipientsModel { Name = "Grant Luther", Course = "Whitebirch at Breezy Point", Year = 2020 };
+    bootWinner[3] = new BootRecipientsModel { Name = "Grant Luther", Course = "Quarry Oaks Golf Club", Year = 2021 };
+    bootWinner[4] = new BootRecipientsModel { Name = "Derrick Wiley", Course = "Raven Golf Club", Year = 2022 };
 }
 
-<h1 className="bootHeader">Boot Winners</h1>
-<p className="preBoot">
-    *pre boot trophy winners: 2013 - Ryan Biegger | 2014 - Jordan Stotts |
-    2015 - Jordan Stotts | 2016 - Ryan Biegger | 2017 - Ryan Biegger
-</p>
+<div class="bootWinners">
 
-<img src="~/flagsitepics/theflag_2018boot.jpg" />
-<h3>@bootWinner[0].Name</h3>
-<p>@bootWinner[0].Course</p>
-<p>@bootWinner[0].Year</p>
+    <h1 class="bootHeader">Boot Winners</h1>
+    <p class="preBoot">
+        *pre boot trophy winners: 2013 - Ryan Biegger | 2014 - Jordan Stotts |
+        2015 - Jordan Stotts | 2016 - Ryan Biegger | 2017 - Ryan Biegger
+    </p>
 
-<br />
+    <div class="bootWinnerLayout">
 
-<img src="~/flagsitepics/theflag_2019boot.jpg" />
-<h3>@bootWinner[1].Name</h3>
-<p>@bootWinner[1].Course</p>
-<p>@bootWinner[1].Year</p>
 
-<br />
+        <div class="bootWinnerTitle">
+            <h3>@bootWinner[0].Name</h3>
+            <p>@bootWinner[0].Course</p>
+            <p>@bootWinner[0].Year</p>
+        </div>
+        <img class="bootWinnerPic" src="~/flagsitepics/theflag_2018boot.jpg" />
 
-<img src="~/flagsitepics/theflag_2020boot.jpg" />
-<h3>@bootWinner[2].Name</h3>
-<p>@bootWinner[2].Course</p>
-<p>@bootWinner[2].Year</p>
+        <br />
 
-<br />
+        <div class="bootWinnerTitle">
+            <h3>@bootWinner[1].Name</h3>
+            <p>@bootWinner[1].Course</p>
+            <p>@bootWinner[1].Year</p>
+        </div>
+        <img class="bootWinnerPic" src="~/flagsitepics/theflag_2019boot.jpg" />
 
-<img src="~/flagsitepics/theflag_2021boot.jpg" />
-<h3>@bootWinner[3].Name</h3>
-<p>@bootWinner[3].Course</p>
-<p>@bootWinner[3].Year</p>
+        <br />
 
-<br />
+        <div class="bootWinnerTitle">
+            <h3>@bootWinner[2].Name</h3>
+            <p>@bootWinner[2].Course</p>
+            <p>@bootWinner[2].Year</p>
+        </div>
+        <img class="bootWinnerPic" src="~/flagsitepics/theflag_2020boot.jpg" />
 
-<img src="~/flagsitepics/theflag_2022boot.jpg" />
-<h3>@bootWinner[4].Name</h3>
-<p>@bootWinner[4].Course</p>
-<p>@bootWinner[4].Year</p>
+        <br />
 
+        <div class="bootWinnerTitle">
+            <h3>@bootWinner[3].Name</h3>
+            <p>@bootWinner[3].Course</p>
+            <p>@bootWinner[3].Year</p>
+        </div>
+        <img class="bootWinnerPic" src="~/flagsitepics/theflag_2021boot.jpg" />
+
+        <br />
+
+        <div class="bootWinnerTitle">
+            <h3>@bootWinner[4].Name</h3>
+            <p>@bootWinner[4].Course</p>
+            <p>@bootWinner[4].Year</p>
+        </div>
+        <img class="bootWinnerPic" src="~/flagsitepics/theflag_2022boot.jpg" />
+    </div>
+</div>
