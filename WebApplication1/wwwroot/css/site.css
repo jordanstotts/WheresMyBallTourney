@@ -17,8 +17,210 @@ body {
   margin-bottom: 60px;
 }
 
+/*======================================= PLAYER BIO PAGE ===============================================*/
+.playerBioPage {
+    background-color: #242222;
+}
 
-/*============================ BOOT RECIPIENT PAGE===============================================*/
+.playerBioLayout {
+    text-align: center;
+    background-color: #242222;
+}
+
+.bio {
+    /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  width: 1500px;
+  height: auto;
+  margin: 75px auto 100px auto; */
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.playerBioHeader {
+    margin-bottom: 4rem;
+    font-family: "Oleo Script", cursive;
+    font-size: 48pt;
+    text-align: center;
+    color: #efb1f2;
+    margin-top: 100px;
+}
+
+.playerCards {
+    box-shadow: 0 0 20px #f5f5f5, 0 0 20px 0 #f5f5f5;
+    border-radius: 25px;
+    background: transparent;
+    margin: auto 5rem 5rem 5rem;
+}
+
+.bioPlayerName {
+    font-size: 30pt;
+    font-family: "Boogaloo", cursive;
+    color: #f5f5f5;
+    width: 300px;
+    margin: auto auto 0.75rem auto;
+}
+
+.socials {
+    margin: 30px 0 -15px 0;
+}
+
+.socialIcon {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.bioPic {
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 0 20px 0 #4cdbf6, 0 0 20px 0 #4cdbf6;
+    border-radius: 20%;
+}
+
+.bioInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #f5f5f5;
+    width: 250px;
+}
+
+    .bioInfo p {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+.bioInfoList {
+    font-size: 14pt;
+    padding: 0;
+    color: #efb1f2;
+    font-family: "Oswald", sans-serif;
+}
+
+.playerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bioListDetail {
+    margin-left: 5px;
+    font-size: 10pt;
+    color: #c4c4c4;
+    font-family: sans-serif;
+}
+
+.playerCardBody {
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/* ===================== Mobile Version ======================= */
+@media (max-width: 915px) {
+    .playerBioPage {
+        background-color: #242222;
+    }
+
+    .playerBioLayout {
+        text-align: center;
+        background-color: #242222;
+    }
+
+    .bio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .playerBioHeader {
+        color: #efb1f2;
+        font-family: "Oleo Script", cursive;
+        font-size: 38pt;
+        margin-bottom: 4rem;
+    }
+
+    .playerCards {
+        box-shadow: 0 0 20px #f5f5f5, 0 0 20px 0 #f5f5f5;
+        border-radius: 25px;
+        background: transparent;
+        margin: auto auto 5rem auto;
+    }
+
+    .bioPlayerName {
+        font-size: 30pt;
+        font-family: "Boogaloo", cursive;
+        color: #f5f5f5;
+        width: 300px;
+        margin: auto auto 0.75rem auto;
+    }
+
+    .socials {
+        margin: 30px 0 -15px 0;
+    }
+
+    .socialIcon {
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+    }
+
+    .bioPic {
+        margin-top: 15px;
+        height: 250px;
+        width: 250px;
+        box-shadow: 0 0 20px 0 #4cdbf6, 0 0 20px 0 #4cdbf6;
+        border-radius: 20%;
+    }
+
+    .bioInfo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        color: #f5f5f5;
+        width: 250px;
+    }
+
+        .bioInfo p {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+    .bioInfoList {
+        font-size: 14pt;
+        padding: 0;
+        color: #efb1f2;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .playerInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bioListDetail {
+        margin-left: 5px;
+        font-size: 10pt;
+        color: #c4c4c4;
+        font-family: sans-serif;
+    }
+
+    .playerCardBody {
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+
+/*============================ BOOT RECIPIENT PAGE ===============================================*/
 .bootWinnerLayout {
     display: flex;
     justify-content: space-evenly;
@@ -66,7 +268,7 @@ body {
     background-color: #242222;
 }
 
-/* ============================== Mobile Version ============================== */
+/* ==================== Mobile Version ======================= */
 @media (max-width: 915px) {
     .bootWinnerLayout {
         display: flex;
