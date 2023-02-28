@@ -17,6 +17,115 @@ body {
   margin-bottom: 60px;
 }
 
+/*======================================= HOME PAGE ===============================================*/
+
+.homeHeader {
+    margin: auto;
+    font-size: 40pt;
+    font-family: "Oleo Script", cursive;
+}
+
+.homeHeaderWords {
+    color: #f5f5f5;
+}
+
+.homeLayout {
+    margin: 25px auto auto auto;
+    justify-content: center;
+    background-color: #242222;
+}
+
+.homeFlagLogo {
+    height: 400px;
+    width: 300px;
+    margin-top: 45px;
+}
+
+.desktopLogo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.homeFlagQuote {
+    text-align: center;
+    display: block;
+    margin: 25px auto 125px 0;
+    font-style: italic;
+    font-size: 16pt;
+    color: #f5f5f5;
+}
+
+.hamburger {
+    border: 2px solid #f5f5f5;
+    background-color: #efb1f2;
+}
+
+.homeNavDropdown {
+}
+
+#dropdownWords {
+    color: #f5f5f5;
+}
+
+/* ============================== Mobile Version ============================== */
+@media (max-width: 915px) {
+    .homeHeader {
+        margin: auto;
+        font-size: 1.2rem;
+        font-family: "Oleo Script", cursive;
+        padding-top: 1.25rem;
+    }
+
+    .homeHeaderWords {
+        color: #f5f5f5;
+    }
+
+    .homeLayout {
+        margin: 2rem auto auto auto;
+        justify-content: center;
+        background-color: #242222;
+        justify-content: center;
+    }
+
+    .homeFlagLogo {
+        height: 22rem;
+        width: 15rem;
+        border-radius: 2.5%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .homeFlagQuote {
+        text-align: center;
+        display: block;
+        margin: 2rem auto 5rem 0;
+        font-style: italic;
+        font-size: 1.25rem;
+        color: #f5f5f5;
+    }
+
+    .hamburger {
+        border: 2px solid #f5f5f5;
+        background-color: #efb1f2;
+        padding: 2px;
+    }
+
+    .homeNavDropdown {
+        text-align: center;
+        color: #f5f5f5;
+    }
+
+    #dropdownWords {
+        color: #f5f5f5;
+    }
+
+        #dropdownWords:hover {
+            color: #efb1f2;
+        }
+}
+
 /*======================================= PLAYER BIO PAGE ===============================================*/
 .playerBioPage {
     background-color: #242222;
