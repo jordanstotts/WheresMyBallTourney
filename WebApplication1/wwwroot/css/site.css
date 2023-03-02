@@ -433,25 +433,19 @@ body {
     background-color: #242222;
 }
 
-/*.ruleSection {
-    margin: 15px 0 50px 0;
-}
-
-.rulesLayout {
-    margin: 75px auto 200px auto;
-    height: 210rem;
-    width: 75rem;
-    color: #f5f5f5;
-}*/
-
 .historyLayout {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 85%;
     width: 90%;
-    margin: auto;
+    margin: auto auto 75px auto;
     color: #f5f5f5;
+    /**/
+    text-align: center;
+    font-size: 14pt;
+    font-family: "Oswald", sans-serif;
+    line-height: 2;
 }
 
 .historyHeader {
@@ -461,6 +455,7 @@ body {
     text-align: center;
     color: #efb1f2;
     margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 /*.historyContent {
@@ -479,7 +474,7 @@ body {
     height: 400px;
     width: 300px;
     display: block;
-    margin: 600px auto 100px auto;
+    margin: 600px auto 300px auto;
 }
 
 /* ==================== Mobile Version ==================== */
