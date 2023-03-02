@@ -527,8 +527,9 @@ body {
 }
 
 .rulesLayout {
-    margin: 75px auto 200px auto;
-    height: 210rem;
+    margin: 75px auto 75px auto;
+    /*height: 210rem;*/
+    height: 175rem;
     width: 75rem;
     color: #f5f5f5;
 }
