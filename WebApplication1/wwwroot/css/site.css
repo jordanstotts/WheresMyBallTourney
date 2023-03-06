@@ -381,7 +381,24 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: #404040;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 125px 5px 125px;
+    /*margin: 10px 75px 5px 75px;*/
+    transition-duration: .4s;
+    cursor: pointer;
 }
+
+    .openModalBtn:hover {
+        background-color: #efb1f2;
+        color: black
+        /* border: 1px solid black;*/
+    }
 
 /*MODAL*/
 .modal-dialog {
