@@ -349,7 +349,7 @@ body {
 }
 
 .flagRecipientHeader {
-    margin-bottom: 4rem;
+    margin-bottom: 100px;
     font-family: "Oleo Script", cursive;
     font-size: 48pt;
     text-align: center;
@@ -383,7 +383,7 @@ body {
     flex-wrap: wrap;
 }
 
-/*MODAL BUTTON TEST*/
+/*MODAL*/
 .modal-dialog {
     display: flex;
     justify-content: center;
@@ -395,15 +395,12 @@ body {
     
 }
 
-.modal-body {
-    
-}
-
 .modal-pic {
    height: 475px;
    width: 720px;
 }
-/*MODAL BUTTON TEST*/
+/*MODAL*/
+
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {
     .flagRecipientPage {

@@ -7,12 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\FlagSitePics\" />
     <Folder Include="wwwroot\SocialIcons\" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\FlagSitePics\the flag_2014card.jpg" />
+    <None Include="wwwroot\FlagSitePics\theflag_2014card.jpg" />
     <None Include="wwwroot\FlagSitePics\theflag_2013card.jpg" />
     <None Include="wwwroot\FlagSitePics\theflag_2013flag.jpg" />
     <None Include="wwwroot\FlagSitePics\theflag_2014flag.jpg" />

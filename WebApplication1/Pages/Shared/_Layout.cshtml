@@ -69,11 +69,13 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @*Flag Recipient Modals*@
     <script type="text/javascript">
         $(document).ready(function () {
             $('#btnShowImage1').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal1').modal('show');
             });
         });
     </script>
@@ -82,7 +84,7 @@
         $(document).ready(function () {
             $('#btnShowImage2').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal2').modal('show');
             });
         });
     </script>
@@ -91,7 +93,7 @@
         $(document).ready(function () {
             $('#btnShowImage3').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal3').modal('show');
             });
         });
     </script>
@@ -100,7 +102,7 @@
         $(document).ready(function () {
             $('#btnShowImage4').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal4').modal('show');
             });
         });
     </script>
@@ -109,7 +111,7 @@
         $(document).ready(function () {
             $('#btnShowImage5').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal5').modal('show');
             });
         });
     </script>
@@ -118,7 +120,7 @@
         $(document).ready(function () {
             $('#btnShowImage6').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal6').modal('show');
             });
         });
     </script>
@@ -127,7 +129,7 @@
         $(document).ready(function () {
             $('#btnShowImage7').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal7').modal('show');
             });
         });
     </script>
@@ -136,7 +138,7 @@
         $(document).ready(function () {
             $('#btnShowImage8').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal8').modal('show');
             });
         });
     </script>
@@ -145,7 +147,7 @@
         $(document).ready(function () {
             $('#btnShowImage9').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal9').modal('show');
             });
         });
     </script>
@@ -154,11 +156,11 @@
         $(document).ready(function () {
             $('#btnShowImage10').click(function () {
                 $('#myImage').show();
-                $('#myModal').modal('show');
+                $('#myModal10').modal('show');
             });
         });
     </script>
-
+    @*End Flag Recipient Modals*@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
