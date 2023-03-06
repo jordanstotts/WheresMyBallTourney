@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+    @*below three added to add modals*@
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>*@
+
+   
 </head>
 <body>
     <header>
@@ -63,6 +69,96 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage1').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage2').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage3').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage4').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage5').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage6').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage7').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage8').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage9').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowImage10').click(function () {
+                $('#myImage').show();
+                $('#myModal').modal('show');
+            });
+        });
+    </script>
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

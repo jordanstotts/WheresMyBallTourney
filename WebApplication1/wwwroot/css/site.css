@@ -1,6 +1,6 @@
-html {
+/*html {
     font-size: 14px;
-}
+}*/
 
 @media (min-width: 915px) {
     html {
@@ -11,6 +11,8 @@ html {
 html {
     position: relative;
     min-height: 100%;
+    background-color: #242222;
+    font-size: 14px;
 }
 
 body {
@@ -381,6 +383,27 @@ body {
     flex-wrap: wrap;
 }
 
+/*MODAL BUTTON TEST*/
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+    height: 500px;
+    width: 750px;
+    
+}
+
+.modal-body {
+    
+}
+
+.modal-pic {
+   height: 475px;
+   width: 720px;
+}
+/*MODAL BUTTON TEST*/
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {
     .flagRecipientPage {

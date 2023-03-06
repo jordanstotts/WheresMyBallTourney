@@ -3,6 +3,3 @@
 
 // Write your JavaScript code.
 
-document.getElementById('button').onclick = function () {
-    alert("button was clicked");
-};
