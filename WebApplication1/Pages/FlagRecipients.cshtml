@@ -4,5 +4,174 @@
 }
 
 @* NOTES
-   -
+   - adjust spacing between header and content
+   - figure out modals (put JS in site.js)
+   - get pictures on there
 *@
+
+<div class="flagRecipientPage">
+    <SiteNavBar />
+    <h1 class="flagRecipientHeader">Flag Recipients</h1>
+    <div class="flagRecipientLayout">
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Grant Luther</p>
+                <p>Toad Valley</p>
+                <p>2013</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2013} />
+
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal1(true)}>
+                Scorecard
+            </button>
+            {openModal1 && <Scorecard1 closeModal1={setOpenModal1} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Derrick Wiley</p>
+                <p>The Legacy Golf Club</p>
+                <p>2014</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2014} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal2(true)}>
+                Scorecard
+            </button>
+            {openModal2 && <Scorecard2 closeModal2={setOpenModal2} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Grant Luther</p>
+                <p>Honey Creek Golf Club</p>
+                <p>2015</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2015} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal3(true)}>
+                Scorecard
+            </button>
+            {openModal3 && <Scorecard3 closeModal3={setOpenModal3} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Derrick Wiley</p>
+                <p>Bos Landen Golf Club</p>
+                <p>2016</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2016} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal4(true)}>
+                Scorecard
+            </button>
+            {openModal4 && <Scorecard4 closeModal4={setOpenModal4} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Connor Girkin</p>
+                <p>Blue Top Ridge at Riverside</p>
+                <p>2017</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2017} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal5(true)}>
+                Scorecard
+            </button>
+            {openModal5 && <Scorecard5 closeModal5={setOpenModal5} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Ryan Biegger</p>
+                <p>Tournament Club of Iowa</p>
+                <p>2018</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2018} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal6(true)}>
+                Scorecard
+            </button>
+            {openModal6 && <Scorecard6 closeModal6={setOpenModal6} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Ryan Biegger</p>
+                <p>Amana Colonies Golf Club</p>
+                <p>2019</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2019} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal7(true)}>
+                Scorecard
+            </button>
+            {openModal7 && <Scorecard7 closeModal7={setOpenModal7} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Derrick Wiley</p>
+                <p>Whitebirch at Breezy Point</p>
+                <p>2020</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2020} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal8(true)}>
+                Scorecard
+            </button>
+            {openModal8 && <Scorecard8 closeModal8={setOpenModal8} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Derrick Wiley</p>
+                <p>Quarry Oaks Golf Club</p>
+                <p>2021</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2021} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal9(true)}>
+                Scorecard
+            </button>
+            {openModal9 && <Scorecard9 closeModal9={setOpenModal9} />}
+        </div>
+
+        <div class="flagRecipientCard">
+            <div class="flagRecipientTitle">
+                <p>Connor Girkin</p>
+                <p>Raven Golf Club</p>
+                <p>2022</p>
+            </div>
+            <img class="flagRecipientPic"
+                 alt="flag recipient"
+                 src={flag2022} />
+            <button class="openModalBtn" onClick={() =>
+                setOpenModal10(true)}>
+                Scorecard
+            </button>
+            {openModal10 && <Scorecard10 closeModal10={setOpenModal10} />}
+        </div>
+    </div>
+</div>
