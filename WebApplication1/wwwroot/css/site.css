@@ -566,6 +566,94 @@ body {
     }
 }
 
+/*============================ INSIGHT TO NEXT YEAR PAGE ===============================================*/
+
+.predictionsHeader {
+    margin-bottom: 4rem;
+    font-family: "Oleo Script", cursive;
+    font-size: 48pt;
+    text-align: center;
+    color: #efb1f2;
+    margin-top: 100px;
+}
+
+.predictionLayout {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.predictionPage {
+    background-color: #242222;
+}
+
+.ourPredictions {
+    text-align: center;
+    margin: 2.5rem 5rem 3.5rem 5rem;
+    height: 300px;
+    width: 250px;
+    justify-content: center;
+    box-shadow: 0 0 20px #f5f5f5, 0 0 20px 0 #f5f5f5;
+    border-radius: 25px;
+    background: transparent;
+}
+
+#predictionName {
+    color: #4cdbf6;
+    font-size: 14pt;
+    padding-top: 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+#prediction {
+    color: #c4c4c4;
+}
+
+.ourPredictions p {
+    color: #f5f5f5;
+}
+
+/* ============================== Mobile Version ============================== */
+@media (max-width: 915px) {
+    .predictionsHeader {
+        color: #efb1f2;
+        font-family: "Oleo Script", cursive;
+        font-size: 38pt;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .predictionPage {
+        background-color: #242222;
+    }
+
+    .ourPredictions {
+        text-align: center;
+        margin: 2.5rem auto 3.5rem auto;
+        height: 300px;
+        width: 250px;
+        justify-content: center;
+        box-shadow: 0 0 20px #f5f5f5, 0 0 20px 0 #f5f5f5;
+        border-radius: 25px;
+        background: transparent;
+    }
+
+    #predictionName {
+        color: #4cdbf6;
+        font-size: 14pt;
+        padding-top: 10px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    #prediction {
+        color: #c4c4c4;
+    }
+
+    .ourPredictions p {
+        color: #f5f5f5;
+    }
+}
+
 
 /*============================HISTORY PAGE===============================================*/
 .historyPage {
