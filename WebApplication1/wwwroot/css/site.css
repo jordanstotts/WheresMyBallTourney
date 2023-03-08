@@ -729,10 +729,10 @@ body {
 
     .historyContent {
         text-align: center;
-        height: 200px;
-        width: 380px;
+        height: auto;
+        width: auto;
         display: block;
-        margin: 75px auto 100px auto;
+        margin: 15px auto 50px auto;
         font-size: 14pt;
         font-family: "Oswald", sans-serif;
         line-height: 2;
@@ -743,8 +743,7 @@ body {
     .historyFlagLogo {
         height: 400px;
         width: 300px;
-        display: block;
-        margin: 1150px auto 100px auto;
+        margin: 100px auto auto auto;
     }
 }
 
