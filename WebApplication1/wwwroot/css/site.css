@@ -261,7 +261,7 @@ body {
         color: #efb1f2;
         font-family: "Oleo Script", cursive;
         font-size: 38pt;
-        margin-bottom: 4rem;
+        margin-bottom: 8rem;
     }
 
     .playerCards {
@@ -276,11 +276,11 @@ body {
         font-family: "Boogaloo", cursive;
         color: #f5f5f5;
         width: 300px;
-        margin: auto auto 0.75rem auto;
+        margin: .75rem auto 0.75rem auto;
     }
 
     .socials {
-        margin: 30px 0 -15px 0;
+        /*margin: 30px 0 50px 0;*/
     }
 
     .socialIcon {
