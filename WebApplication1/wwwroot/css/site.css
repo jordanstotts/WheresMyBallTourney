@@ -868,3 +868,15 @@ body {
             margin: .5rem;
         }
 }
+
+
+/* ============================== GALLERY PAGE ============================== */
+.galleryText {
+    color: white;
+    margin: 100px;
+    text-align: center;
+}
+
+/* =================== Mobile Version =================== */
+@media (max-width: 915px) {
+}

@@ -5,13 +5,17 @@
 
 @* NOTES
    - create form with drop down menu that lets people submit picks for flag/boot winners
-   - figure out how to save each pick
+   - figure out how to save each pick ... connect to a database (SQLlite)
    - show results in some type of graph
 *@
+
+
+
 
 <div class="predictionPage">
     <SiteNavBar />
     <h1 class="predictionsHeader">Insight To Next Year</h1>
+   @* <h4>Make your predictions below!</h4>*@
     <div class="predictionLayout">
         <div class="ourPredictions">
             <p id="predictionName">Austin's prediction:</p>
@@ -80,4 +84,54 @@
             </div>
         </div>
     </div>
+
+@*    <label for="golfers">Choose a golfer:</label>
+    <form>
+        <select id="golfers" name="golfers">
+            <option value="Austin">Austin</option>
+            <option value="Connor">Connor</option>
+            <option value="Derrick">Derrick</option>
+            <option value="Grant">Grant</option>
+            <option value="Jordan">Jordan</option>
+            <option value="Ryan">Ryan</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>*@
+
+    <h3>The public's predictions</h3>
+    <a class="btn btn-primary btn-sm" href="/Pages/InsightToNextYear">New Prediction</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Boot</th>
+                <th>2nd Place</th>
+                <th>3rd Place</th>
+                <th>4th Place</th>
+                <th>5th Place</th>
+                <th>Flag</th>
+                <th>Created At</th>
+                @*<th>Action</th>*@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.predictionsList)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <td>@item.boot</td>
+                    <td>@item.playerTwo</td>
+                    <td>@item.playerThree</td>
+                    <td>@item.playerFour</td>
+                    <td>@item.playerFive</td>
+                    <td>@item.flag</td>
+                    <td>@item.created_at</td>
+                    @*<td>**not sure if i want an edit or delete action here**</td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
 </div>
