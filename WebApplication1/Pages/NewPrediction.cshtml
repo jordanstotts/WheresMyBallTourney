@@ -1,0 +1,141 @@
+﻿@page
+@model WheresMyBallTourney.Pages.NewPredictionModel
+@{
+}
+
+<br />
+    <h2>Make your 2023 predictions:</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+    <form method="POST">
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Boot:</label>
+            <div class="col-sm-6">
+            <select class="form-control" name="boot" >
+                <option value="null">Select golfer</option>
+                <option value="Austin">Austin</option>
+                <option value="Connor">Connor</option>
+                <option value="Derrick">Derrick</option>
+                <option value="Grant">Grant</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Ryan">Ryan</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">2nd Place:</label>
+            <div class="col-sm-6">
+            <select class="form-control" name="playerTwo" value="@Model.predictionInfo.playerTwo">
+                <option value="null">Select golfer</option>
+                <option value="Austin">Austin</option>
+                <option value="Connor">Connor</option>
+                <option value="Derrick">Derrick</option>
+                <option value="Grant">Grant</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Ryan">Ryan</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">3rd Place:</label>
+            <div class="col-sm-6">
+            <select class="form-control" name="playerThree" value="@Model.predictionInfo.playerThree">
+                <option value="null">Select golfer</option>
+                <option value="Austin">Austin</option>
+                <option value="Connor">Connor</option>
+                <option value="Derrick">Derrick</option>
+                <option value="Grant">Grant</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Ryan">Ryan</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">4th Place:</label>
+            <div class="col-sm-6">
+            <select class="form-control" name="playerFour" value="@Model.predictionInfo.playerFour">
+                <option value="null">Select golfer</option>
+                <option value="Austin">Austin</option>
+                <option value="Connor">Connor</option>
+                <option value="Derrick">Derrick</option>
+                <option value="Grant">Grant</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Ryan">Ryan</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">5th Place:</label>
+            <div class="col-sm-6">
+            <select class="form-control" name="playerFive" value="@Model.predictionInfo.playerFive">
+                <option value="null">Select golfer</option>
+                <option value="Austin">Austin</option>
+                <option value="Connor">Connor</option>
+                <option value="Derrick">Derrick</option>
+                <option value="Grant">Grant</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Ryan">Ryan</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Flag:</label>
+            <div class="col-sm-6">
+            <select class="form-control" name="flag" value="@Model.predictionInfo.flag">
+                <option value="null">Select golfer</option>
+                <option value="Austin">Austin</option>
+                <option value="Connor">Connor</option>
+                <option value="Derrick">Derrick</option>
+                <option value="Grant">Grant</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Ryan">Ryan</option>
+            </select>
+            </div>
+        </div>
+
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>@Model.successMessage</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class=" btn btn-outline-primary" href="/InsightToNextYear">Cancel</a>
+        </div>
+    </div>
+    </form>
+
+
+
+
+
+@*<select id="golfers" name="golfers">
+    <option value="Austin">Austin</option>
+    <option value="Connor">Connor</option>
+    <option value="Derrick">Derrick</option>
+    <option value="Grant">Grant</option>
+    <option value="Jordan">Jordan</option>
+    <option value="Ryan">Ryan</option>
+</select>*@
