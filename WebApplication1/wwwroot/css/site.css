@@ -20,6 +20,20 @@ body {
     background-color: #242222;
 }
 
+/*======================================= NAVBAR ==================================================*/
+.nav-item {
+    margin: auto;
+    font-family: "Oswald", sans-serif;
+}
+
+/* ============================== Mobile Version ============================== */
+@media (max-width: 915px) {
+    .nav-item {
+        margin: auto;
+        font-family: "Oswald", sans-serif;
+    }
+}
+
 /*======================================= HOME PAGE ===============================================*/
 
 .homeHeader {
@@ -45,6 +59,7 @@ body {
 }
 
 .desktopLogo {
+    margin-top: 150px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -581,7 +596,7 @@ body {
 
     .bootWinnerPic {
         height: 300px;
-        width: auto;
+        width: 350px;
     }
 
     .bootWinners {
@@ -599,6 +614,18 @@ body {
     text-align: center;
     color: #efb1f2;
     margin-top: 100px;
+}
+
+.insightSubTitle {
+    margin-bottom: 50px;
+    text-align:center;
+    color: white;
+}
+
+.courseInsight {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px
 }
 
 .predictionLayout {
@@ -635,6 +662,38 @@ body {
 
 .ourPredictions p {
     color: #f5f5f5;
+}
+
+
+.publicPredictionSection {
+    margin-top: 75px;
+}
+
+.predictionTableHeader {
+    color: white;
+    text-align:center;
+    margin-bottom: 25px
+}
+
+#newPredictionBtn {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    margin: auto auto 20px auto;
+    background-color: #4cdbf6;
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+.table {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#tableHead {
+    color: #efb1f2;
 }
 
 /* ============================== Mobile Version ============================== */
@@ -678,7 +737,49 @@ body {
     }
 }
 
+/*============================ NEW PREDICTION PAGE ===============================================*/
+.newPredictionHeader {
+    margin-bottom: 4rem;
+    font-family: "Oleo Script", cursive;
+    font-size: 48pt;
+    text-align: center;
+    color: #efb1f2;
+    margin-top: 100px;
+}
 
+#instructions {
+    color: white;
+    text-align: center;
+    margin: auto auto 25px auto;
+}
+
+#predictionPageLabel {
+    color: #efb1f2;
+    font-size: 12pt;
+}
+
+#predictionRow {
+   /* margin: auto auto auto 27rem;*/
+    text-align: center;
+}
+
+#dropdownWords {
+    text-align: center;
+    color: black;
+    /*width: 200px*/
+}
+
+#predictionSubmitBtn {
+    background-color: #4cdbf6;
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+#predictionCancelBtn {
+    border-color: #4cdbf6;
+    color: #4cdbf6;
+    font-family: "Oswald", sans-serif;
+}
 /*============================HISTORY PAGE===============================================*/
 .historyPage {
     background-color: #242222;
@@ -725,7 +826,7 @@ body {
     height: 400px;
     width: 300px;
     display: block;
-    margin: 600px auto 300px auto;
+    margin: 200px auto 100px auto;
 }
 
 /* ==================== Mobile Version ==================== */

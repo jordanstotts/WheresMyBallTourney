@@ -4,8 +4,6 @@
 }
 
 @* NOTES
-   - create form with drop down menu that lets people submit picks for flag/boot winners
-   - figure out how to save each pick ... connect to a database (SQLlite)
    - show results in some type of graph
 *@
 
@@ -15,7 +13,11 @@
 <div class="predictionPage">
     <SiteNavBar />
     <h1 class="predictionsHeader">Insight To Next Year</h1>
-    <h4>Make your predictions below!</h4>
+    <div class="courseInsight">
+    <h5>The 11th annual "Where's My Ball" tournament will be held at Payne's Valley, Tiger Woods' golf course in Hollister, MO</h5>
+    <h5>Check out the course here: <a href="https://bigcedar.com/golf/paynes-valley-course/">Payne's Valley</a></h5>
+    </div>
+    <h4 class="insightSubTitle">Make your predictions below!</h4>
     <div class="predictionLayout">
         <div class="ourPredictions">
             <p id="predictionName">Austin's prediction:</p>
@@ -85,11 +87,11 @@
         </div>
     </div>
 
-
-    <h3>The public's predictions</h3>
-    <a class="btn btn-primary btn-sm" href="/NewPrediction">New Prediction</a>
+    <div class="publicPredictionSection">
+    <h3 class="predictionTableHeader">The public's predictions for 2023 at Payne's Valley</h3>
+    <a id="newPredictionBtn" class="btn btn-primary btn-sm" href="/NewPrediction">New Prediction</a>
     <table class="table">
-        <thead>
+        <thead id="tableHead">
             <tr>
                 @*<th>ID</th>*@
                 <th>Boot</th>
@@ -102,7 +104,7 @@
                 @*<th>Action</th>*@
             </tr>
         </thead>
-        <tbody>
+        <tbody id="tableBody">
             @foreach(var item in Model.predictionsList)
             {
                 <tr>
@@ -119,6 +121,6 @@
             }
         </tbody>
     </table>
-
+    </div>
 
 </div>
