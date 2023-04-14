@@ -13,13 +13,10 @@ namespace WheresMyBallTourney.Pages
             try
             {
                 String connectionString = "Data Source=.\\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
-                // ".\\SQLEXPRESS  (DESKTOP-QKA86S9\\jorda)";
-                // "Server=localhost\\SQLEXPRESS01;Database=master;Trusted_Connection=True;"
 
                 using SqlConnection connection = new(connectionString);
                 connection.Open();
                 String sql = "SELECT * FROM FlagTourneyPredictions.dbo.predictions";
-                //String sql = "SELECT TOP (1000) [id],[boot],[playerTwo],[playerThree],[playerFour],[playerFive],[flag],[created_at] FROM [FlagTourneyPredictions].[dbo].[predictions]";
                 using SqlCommand command = new(sql, connection);
                 using SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())

@@ -13,7 +13,7 @@ namespace WheresMyBallTourney.Pages
         {
         }
 
-        public void OnPost() 
+        public void OnPost()
         {
             predictionInfo.boot = Request.Form["boot"];
             predictionInfo.playerTwo = Request.Form["playerTwo"];

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\theflag_logoBlack.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\SocialIcons\" />
   </ItemGroup>
 
@@ -46,6 +50,7 @@
     <None Include="wwwroot\SocialIcons\facebook_logo.png" />
     <None Include="wwwroot\SocialIcons\instagram_logo.png" />
     <None Include="wwwroot\SocialIcons\twitter_logo.png" />
+    <None Include="wwwroot\theflag_logoBlack.ico" />
   </ItemGroup>
 
   <ItemGroup>

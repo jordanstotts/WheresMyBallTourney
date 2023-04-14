@@ -4,12 +4,12 @@
 }
 
 @* NOTES
-    - 
+    -
 *@
 
 <br />
-    <h2 class="newPredictionHeader">Make your 2023 predictions</h2>
-    <p id="instructions">* all fields required / no duplicate names</p>
+<h2 class="newPredictionHeader">Make your 2023 predictions</h2>
+<p id="instructions">* all fields required / no duplicate names</p>
 
 @if (Model.errorMessage.Length > 0)
 {
@@ -19,10 +19,10 @@
     </div>
 }
 
-    <form method="POST">
-        <div id="predictionRow" class="row mb-3">
-            <label id="predictionPageLabel" class="col-sm-3 col-form-label">Boot:</label>
-            <div class="col-sm-6">
+<form method="POST">
+    <div id="predictionRow" class="row mb-3">
+        <label id="predictionPageLabel" class="col-sm-3 col-form-label">Boot:</label>
+        <div class="col-sm-6">
             <select id="dropdownWords" class="form-control" name="boot">
                 <option value="null">Select golfer</option>
                 <option value="Austin">Austin</option>
@@ -32,12 +32,12 @@
                 <option value="Jordan">Jordan</option>
                 <option value="Ryan">Ryan</option>
             </select>
-            </div>
         </div>
+    </div>
 
     <div id="predictionRow" class="row mb-3">
         <label id="predictionPageLabel" class="col-sm-3 col-form-label">2nd Place:</label>
-            <div class="col-sm-6">
+        <div class="col-sm-6">
             <select id="dropdownWords" class="form-control" name="playerTwo" value="@Model.predictionInfo.playerTwo">
                 <option value="null">Select golfer</option>
                 <option value="Austin">Austin</option>
@@ -47,12 +47,12 @@
                 <option value="Jordan">Jordan</option>
                 <option value="Ryan">Ryan</option>
             </select>
-            </div>
         </div>
+    </div>
 
     <div id="predictionRow" class="row mb-3">
         <label id="predictionPageLabel" class="col-sm-3 col-form-label">3rd Place:</label>
-            <div class="col-sm-6">
+        <div class="col-sm-6">
             <select id="dropdownWords" class="form-control" name="playerThree" value="@Model.predictionInfo.playerThree">
                 <option value="null">Select golfer</option>
                 <option value="Austin">Austin</option>
@@ -62,12 +62,12 @@
                 <option value="Jordan">Jordan</option>
                 <option value="Ryan">Ryan</option>
             </select>
-            </div>
         </div>
+    </div>
 
     <div id="predictionRow" class="row mb-3">
         <label id="predictionPageLabel" class="col-sm-3 col-form-label">4th Place:</label>
-            <div class="col-sm-6">
+        <div class="col-sm-6">
             <select id="dropdownWords" class="form-control" name="playerFour" value="@Model.predictionInfo.playerFour">
                 <option value="null">Select golfer</option>
                 <option value="Austin">Austin</option>
@@ -77,12 +77,12 @@
                 <option value="Jordan">Jordan</option>
                 <option value="Ryan">Ryan</option>
             </select>
-            </div>
         </div>
+    </div>
 
     <div id="predictionRow" class="row mb-3">
         <label id="predictionPageLabel" class="col-sm-3 col-form-label">5th Place:</label>
-            <div class="col-sm-6">
+        <div class="col-sm-6">
             <select id="dropdownWords" class="form-control" name="playerFive" value="@Model.predictionInfo.playerFive">
                 <option value="null">Select golfer</option>
                 <option value="Austin">Austin</option>
@@ -92,12 +92,12 @@
                 <option value="Jordan">Jordan</option>
                 <option value="Ryan">Ryan</option>
             </select>
-            </div>
         </div>
+    </div>
 
     <div id="predictionRow" class="row mb-3">
         <label id="predictionPageLabel" class="col-sm-3 col-form-label">Flag:</label>
-            <div class="col-sm-6">
+        <div class="col-sm-6">
             <select id="dropdownWords" class="form-control" name="flag" value="@Model.predictionInfo.flag">
                 <option value="null">Select golfer</option>
                 <option value="Austin">Austin</option>
@@ -107,8 +107,8 @@
                 <option value="Jordan">Jordan</option>
                 <option value="Ryan">Ryan</option>
             </select>
-            </div>
         </div>
+    </div>
 
     @if (Model.successMessage.Length > 0)
     {
@@ -130,17 +130,5 @@
             <a id="predictionCancelBtn" class=" btn btn-outline-primary" href="/InsightToNextYear">Cancel</a>
         </div>
     </div>
-    </form>
+</form>
 
-
-
-
-
-@*<select id="golfers" name="golfers">
-    <option value="Austin">Austin</option>
-    <option value="Connor">Connor</option>
-    <option value="Derrick">Derrick</option>
-    <option value="Grant">Grant</option>
-    <option value="Jordan">Jordan</option>
-    <option value="Ryan">Ryan</option>
-</select>*@
