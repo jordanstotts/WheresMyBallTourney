@@ -972,19 +972,25 @@ body {
 
 
 /* ============================== GALLERY PAGE ============================== */
-/*.galleryLayout {
-    display: flex-grid;
+#galleryLayout {
+    display: flex;
     justify-content: center;
-    margin: auto;
-}*/
-
-.galleryPic {
-    height: 400px;
-    width: 350px;
-    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+    #galleryLayout img {
+        width: 350px;
+        height: 400px;
+        margin: 10px;
+    }
 
 
 /* =================== Mobile Version =================== */
 @media (max-width: 915px) {
+    #galleryLayout img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+    }
 }
