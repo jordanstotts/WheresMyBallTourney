@@ -972,11 +972,18 @@ body {
 
 
 /* ============================== GALLERY PAGE ============================== */
-.galleryText {
-    color: white;
-    margin: 100px;
-    text-align: center;
+/*.galleryLayout {
+    display: flex-grid;
+    justify-content: center;
+    margin: auto;
+}*/
+
+.galleryPic {
+    height: 400px;
+    width: 350px;
+    margin: auto;
 }
+
 
 /* =================== Mobile Version =================== */
 @media (max-width: 915px) {
