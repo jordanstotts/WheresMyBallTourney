@@ -1,3 +1,4 @@
+using Microsoft.Extensions.FileProviders;
 using WebApplication1.Pages;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseStaticFiles( new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "FlagSitePics")),
+    RequestPath = "/StaticFiles"
+});
 
 app.UseRouting();
 
