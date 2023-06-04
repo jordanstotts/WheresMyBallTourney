@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WheresMyBallTourney.Pages
 {
-    public class InsightToNextYearModel : PageModel
+   /* public class InsightToNextYearModel : PageModel
     {
         public List<PredictionInfo> predictionsList = new();
         public void OnGet()
@@ -52,5 +52,5 @@ namespace WheresMyBallTourney.Pages
         public String playerFive;
         public String flag;
         public String created_at;
-    }
+    }*/
 }
